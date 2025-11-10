@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-slate-950 text-slate-100 antialiased font-sans;
+}
+
+a {
+  @apply text-brand-300 underline underline-offset-4 transition hover:text-brand-200;
+}
+
+.glass-panel {
+  @apply rounded-3xl bg-white/10 backdrop-blur-md border border-white/10 shadow-lg;
+}
